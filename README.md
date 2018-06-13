@@ -5,7 +5,7 @@
 * Work in a fork of this repository
 * Work in a branch called `lab-03` on your fork
 * Open a pull request to your forked repository
-* Set up Travis CI on our forked repository to enable continuous integration
+* Set up Travis CI on your forked repository to enable continuous integration
 * Submit on canvas a question and observation, how long you spent, and a link to your pull request
 
 ## Resources
