@@ -45,4 +45,4 @@ In the lib/ directory create a `reader.js` module that exports a single function
 Write the file reader function recursively so that it will be able to support 0 or more paths.
 
 ##  Documentation
-In your README.md describe the exported values of each module you have defined. Every function description should include it's airty (expected number of parameters), the expected data for each paramiter (data-type and limitations), and it's behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
+Add your Travis CI build badge to the top of your README.md. Describe the exported values of each module you have defined. Every function description should include it's airty (expected number of parameters), the expected data for each paramiter (data-type and limitations), and it's behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
