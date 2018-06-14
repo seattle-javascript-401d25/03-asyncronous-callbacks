@@ -1,14 +1,13 @@
 'use strict';
 
-const fs = require('fs');
 const logger = require('./logger');
+const fs = require('fs');
 
-const fileReader = module.exports= {};
+const fileReader = module.exports = {};
+
+const data1 = `${__dirname}/./lib/data/data1.txt`;
+// const data2 = `${__dirname}/./lib/data/data2.txt`;
+// const data3 = `${__dirname}/./lib/data/data3.txt`;
 
 // this reads a single file path
-fileReader.readFile = ( './src/lib/data/data1.txt' ) => {
-    return fs.readFile('./src/lib/data/data1.txt'), (err, data) => {
-        if err throw err;
-        logger.log(logger.INFO, data.toString());
-    }
-}
+fileReader.readFile(data1);
