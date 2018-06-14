@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/noahmvf/03-asyncronous-callbacks/issues"
   },
-  "homepage": "https://github.com/noahmvf/03-asyncronous-callbacks#readme"
+  "homepage": "https://github.com/noahmvf/03-asyncronous-callbacks#readme",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
 }
