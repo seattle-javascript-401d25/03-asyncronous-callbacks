@@ -32,7 +32,7 @@ describe('testing fileReader module that reads three files', () => {
   });
 
   test('should return an error for a bad filepath on the first item', () => {
-    fileReader.readThreeFiles('bad path', filePath2, filePath3, (err, data1, data2, data3) => {
+    fileReader.readThreeFiles(['bad path', filePath2, filePath3], (err, data1, data2, data3) => {
       expect(err).toHaveProperty('errno');
       expect(err.code).toEqual('ENOENT'); //this indicates that there is a bad filepath and we expect an 'Error No Entry'
     })
