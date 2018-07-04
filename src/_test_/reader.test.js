@@ -1,11 +1,11 @@
 'use strict';
 
 const fs = require('fs');
-const fileReader = require('../lib/file-reader/file-reader');
+const fileReader = require('../lib/file-reader/reader');
 
-const mockText1 = `${__dirname}/./mock-assets/1.txt`;
-const mockText2 = `${__dirname}/./mock-assets/2.txt`;
-const mockText3 = `${__dirname}/./mock-assets/3.txt`;
+const mockText1 = `${__dirname}/../lib/assets/1.txt`;
+const mockText2 = `${__dirname}/../lib/assets/2.txt`;
+const mockText3 = `${__dirname}/../lib/assets/3.txt`;
 
 
 let mockData = [];
@@ -36,8 +36,6 @@ describe('testing fileReader module that reads there files', () => {
       done();
     });
   });
-test('should return an error for a bad path', () => {
-  fileReader.readThreeFiles()
-})
+
 
 });
